@@ -1,0 +1,35 @@
+.banner{
+    background-image: url("https://www.ulcdn.net/opt/www.ulcdn.net/images/products/166305/original/FNSF52WSCR3_-_main_2.jpg?1518598743");
+    height: 65vh;
+    position: relative;
+}
+.banner-info{
+    background-color: black;
+    color:white;
+    position: absolute;
+    padding-top: 20vh;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    width: 350px;
+}
+.banner-info > button {
+    background-color: #ff7779;
+    color:white;
+    text-transform: inherit;
+    margin-top:10px;
+}
+.banner-info > h1,h5 {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.banner-search {
+    display: flex;
+    flex-direction: column;
+}
+.banner-search-button{
+    background-color: white !important;
+    text-transform: inherit !important;
+    font-weight: 900 !important;
+    color: #ff7779 !important; 
+}
